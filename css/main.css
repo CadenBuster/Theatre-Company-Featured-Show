@@ -1,0 +1,111 @@
+* {
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    font-size:16px;
+}
+#image{
+    background-image:url("../images/theater-image-background.png");
+    max-width:100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    height:80vh;
+}
+#date{
+    margin-top: 50px;
+    padding: 5px 0px 5px 20px;
+    background-color:rgb(246, 246, 246);
+    border:1px solid gray;
+    width:60%;
+}
+#nav-heading{
+    display:inline;
+}
+#chicago{
+    height:300px;
+    width:400px;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.information{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 2px solid gray;
+    padding: 0px 0px 10px 10px;
+    margin: 20px 0px 10px 0px;
+    width: 60%;
+
+}
+.image{
+    width: 300px;
+    height:200px; 
+}
+.words{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    height:200px;
+}
+.button{
+    background-color:rgb(236, 179, 34);
+    color:white;
+    padding:5px;
+    font-size: 1.5rem;
+}
+.button:hover{
+    cursor:pointer;
+}
+.button:active{
+    background-color:white;
+    color:rgb(236, 179, 34);
+}
+.li-heading{
+    font-size:2rem;
+}
+.ul-footer{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    list-style-type:none;
+    font-size:.75rem;
+}
+.footer{
+    display:flex;
+    justify-content:space-around;
+    padding:100px;
+}
+h1{
+    color:white;
+    text-align:center;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 5rem;
+}
+nav {
+    background-color:black;
+    color:white;
+    display:block;
+    height:15vh;
+}
+nav ul{
+    width:100%;
+}
+nav li{
+    display: inline;
+    margin: 20px;
+}
+footer{
+    background-color:black;
+    color:white;
+}
